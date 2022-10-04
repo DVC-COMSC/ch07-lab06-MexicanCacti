@@ -1,7 +1,6 @@
 
 inputvalues = input('Enter all elements values: ')
 numbers1 = inputvalues.split() 
-numbers2 = [] * len(numbers1)
 for i in range(len(numbers1)):
 	numbers1[i] = int(numbers1[i]) 
 # The following line is the same as the for-loop
@@ -12,7 +11,7 @@ for i in range(len(numbers1)):
 # ******************************
 # Make your Code
 # ******************************
-
+numbers2 = []
 for i in range(len(numbers1)):
 	numbers2.insert(0,numbers1.pop())
 print(numbers2)
