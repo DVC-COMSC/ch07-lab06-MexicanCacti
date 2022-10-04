@@ -11,3 +11,7 @@ for i in range(len(numbers1)):
 # ******************************
 # Make your Code
 # ******************************
+
+for i in range(len(numbers1[i])):
+	numbers2.insert(0,numbers1.pop())
+print(numbers2)
